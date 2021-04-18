@@ -66,10 +66,10 @@ WITH_SYSTEMDIR:=""
 # The app-bundle itself will not be created, but the runtime paths
 # will be set to expect the game-data in *.app/
 # Contents/Resources
-OSX_APP:=yes
+OSX_APP:=no
 
 # Build vulkan render
-WITH_REFVK:=yes
+WITH_REFVK:=no
 
 # This is an optional configuration file, it'll be used in
 # case of presence.

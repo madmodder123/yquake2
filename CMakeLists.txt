@@ -47,7 +47,7 @@ string(REPLACE "-O3" "-O2" CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE}")
 # Compilation time options.
 option(CURL_SUPPORT "cURL support" ON)
 option(OPENAL_SUPPORT "OpenAL support" ON)
-option(VULKAN_SUPPORT "Vulkan support" ON)
+option(VULKAN_SUPPORT "Vulkan support" OFF)
 option(SYSTEMWIDE_SUPPORT "Enable systemwide installation of game assets" OFF)
 
 # These variables will act as our list of include folders and linker flags.
